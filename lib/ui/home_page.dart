@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:notary_app_assignment/data/home_remote_data_source.dart';
+import 'package:notary_app_assignment/data/datasources/home_remote_data_source.dart';
 import 'package:notary_app_assignment/data/models/continue_watching_model.dart';
 import 'package:notary_app_assignment/data/models/header_model.dart';
 import 'package:notary_app_assignment/data/models/home_response_model.dart';
 import 'package:notary_app_assignment/data/models/popular_video_model.dart';
 import 'package:notary_app_assignment/data/models/yoga_category_model.dart';
-import 'package:notary_app_assignment/network/api_client.dart';
-import 'package:notary_app_assignment/ui/widgets/continue_watching_section.dart';
-import 'package:notary_app_assignment/ui/widgets/popular_video_sectoin.dart';
-import 'package:notary_app_assignment/ui/widgets/yoga_categories_section.dart';
+import 'package:notary_app_assignment/core/network/api_client.dart';
+import 'package:notary_app_assignment/ui/sections/continue_watching_section.dart';
+import 'package:notary_app_assignment/ui/sections/popular_video_sectoin.dart';
+import 'package:notary_app_assignment/ui/sections/yoga_categories_section.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

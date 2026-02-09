@@ -1,5 +1,5 @@
 import 'package:notary_app_assignment/data/models/home_response_model.dart';
-import 'package:notary_app_assignment/network/api_client.dart';
+import 'package:notary_app_assignment/core/network/api_client.dart';
 
 class HomeRemoteDataSource {
   final ApiClient apiClient;
